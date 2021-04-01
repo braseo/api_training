@@ -11,18 +11,11 @@ public class UserInfo {
     public final String userSex;
     public final String userSexPref;
 
-    public UserInfo(@JsonProperty("userEmail") String userEmail,
-                    @JsonProperty("userName") String userName,
-                    @JsonProperty("userTweeter") String userTweeter,
-                    @JsonProperty("userCountry") String userCountry,
-                    @JsonProperty("userSex") String userSex,
-                    @JsonProperty("userSexPref") String userSexPref) {
+    public UserInfo(@JsonProperty("userEmail") String userEmail, @JsonProperty("userName") String userName, @JsonProperty("userTweeter") String userTweeter, @JsonProperty("userCountry") String userCountry, @JsonProperty("userSex") String userSex, @JsonProperty("userSexPref") String userSexPref) {
         this.userEmail = userEmail;
         this.userName = userName;
         this.userTweeter = userTweeter;
         this.userCountry = userCountry;
         this.userSex = userSex;
         this.userSexPref = userSexPref;
-    }
-
-}
+    }}
